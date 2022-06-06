@@ -1,0 +1,10 @@
+package Com.xworkz.java.Oops.polymorphsim.methodoverloadingassingment2;
+
+public class Adder {
+	static int add(int a,int b) {
+		return a+b;
+	}
+static int add(int a,int b,int c) {
+	return a+b+c;
+}
+}
